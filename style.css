@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+
+    font-family: "Poppins", sans-serif;
+    
+
+}
+
+
+body{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 200px;
+
+}
+
+:root{
+
+    --primary-color: #20c997;
+    --para-color: #808e9b;
+    --secondary-color: black ;
+
+}
+
+a{
+
+    text-decoration: none;
+    color: black;
+  
+
+}
+
+
+p{
+
+    color: var(--para-color);
+
+}
+
+                /* ***************Home Page Starts****************** */
+
+
+.header-att {
+
+    padding: 0px 20px !important;
+    padding-top: 4px !important;
+   
+
+}
+
+.header-att:hover{
+
+    color:var(--primary-color) !important;
+
+}
+
+.header .navbar-brand{
+
+    padding: 0px !important;
+
+}
+
+.header .navbar-brand:hover{
+
+
+    color: var(--primary-color) !important;
+
+}
+
+
+
+.banner .right-wrapper img{
+
+
+    width: 600px;
+    
+
+}
+
+
+.banner .right-wrapper{
+
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+}
+
+.banner .left-wrapper h1{
+
+
+    font-size: 3em;
+    margin-bottom: 20px;
+    
+
+}
+
+.banner .left-wrapper h2{
+
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+
+
+}
+
+.banner .left-wrapper p {
+
+
+    font-size: 1em;
+    margin-bottom: 20px;
+
+}
+
+
+.banner .left-wrapper a{
+
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+button {
+
+
+    background-color: var(--primary-color) !important;
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+    border: none !important;
+    color: black !important;
+
+
+}
+
+button:hover{
+
+    background-color: var(--secondary-color) !important;
+    color: white !important;
+
+
+}
+
+.banner .left-wrapper a:hover{
+
+    background-color: var(--secondary-color) !important;
+    color: white !important;
+
+}
+
+
+
+
+.blogs .upper-wrapper h1{
+
+    margin-bottom: 50px;
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--para-color);
+
+
+}
+
+
+/* isko end me hata dena  */
+
+.blogs .lower-wrapper{
+
+    margin-bottom: 100px;
+
+}
+
+
+                /* ***************Home Page End****************** */
+
+
+                /* ***************Signup Page Start****************** */
+
+.bg-color{
+
+
+    background-color: rgb(241, 240, 240);
+
+
+}
+
+.signup .box-wrapper{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}       
+
+.signup .box-wrapper form{
+
+    background-color: rgb(255, 255, 255);
+    padding: 10px 60px;
+    border-radius: 10px;
+    width: 600px;
+    height: 400px;
+}
+
+.signup .box-wrapper h1{
+
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.signup .box-wrapper form label{
+
+    font-size: 1.1em !important;
+    
+}
+
+.signup .box-wrapper form input{
+
+    border: 1px solid var(--para-color);
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 15px !important;
+
+
+
+}
+
+
+.signup .box-wrapper form a:hover{
+
+    color: var(--primary-color) !important;
+
+}
+
+
+
+/* ***************Signup Page end****************** */
+
+
+/* ***************dashboard Page Start****************** */
+
+/* .d-uploadblog{
+
+    margin: 0 auto;
+
+} */
+
+.d-uploadblog h2{
+
+    text-align: center !important;
+    margin-bottom: 80px !important;
+    
+}
+
+.d-uploadblog .upload-blog-form{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    margin: 0 auto;
+
+
+}
+
+.upload-blog-form input {
+
+    border: 1px solid var(--para-color);
+    padding: 10px 10px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 15px !important;
+     
+}
+
+
+.upload-blog-form label {
+
+    font-size: 1.1em !important;
+
+     
+}
